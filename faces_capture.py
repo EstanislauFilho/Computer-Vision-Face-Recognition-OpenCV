@@ -11,8 +11,12 @@ eye_detect = cv2.CascadeClassifier("Classificador/haarcascade-eye.xml")
 
 video = cv2.VideoCapture(0)
 
-cont_foto = 1
-total_photos = 50
+cont_photo = 1
+total_photos = 5
+
+width_face, heigth_face = 250, 250
+
+name = input("Informe seu nome ou um apelido: ")
 
 print("Capturing photos...")
 
@@ -26,10 +30,15 @@ while(True):
     for(x, y, width, heigth) in faces_on_video:
         cv2.rectangle(image_video, (x, y), (x + width, y + heigth), (0, 255, 0), 2)
 
+        if cv2.waitKey(1) & 0xFF == ord('c'):
+            image_face = cv2.resize(image_video_gray[y:y + heigth, x:x + width], (width_face, heigth_face))
+            cv2.imwrite("Faces_capturadas/face" + "." + str(name) + "." + str(cont_photo) + ".jpg",image_face)
+            cont_photo += 1
+
     cv2.imshow("Capturing photos.", image_video)
     cv2.waitKey(1)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if (cv2.waitKey(1) & 0xFF == ord('q')) or (cont_photo >= total_photos + 1):
         break
 
 video.release()
