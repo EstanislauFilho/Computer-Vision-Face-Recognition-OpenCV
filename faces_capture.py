@@ -29,5 +29,8 @@ while(True):
     cv2.imshow("Capturing photos.", image_video)
     cv2.waitKey(1)
 
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
 video.release()
 cv2.destroyAllWindows()
