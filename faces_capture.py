@@ -18,3 +18,10 @@ print("Capturing photos...")
 
 while(True):
     conect, image_video = video.read()
+
+    image_video_gray = cv2.cvtColor(image_video, cv2.COLOR_BGR2GRAY)
+
+    faces_on_video = face_detect.detectMultiScale(image_video_gray)
+
+    for(x, y, width, heigth) in faces_on_video:
+        cv2.rectangle(image_video, (x, y), (x + width, y + heigth), (0, 255, 0), 2)
