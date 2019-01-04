@@ -25,3 +25,9 @@ while(True):
 
     for(x, y, width, heigth) in faces_on_video:
         cv2.rectangle(image_video, (x, y), (x + width, y + heigth), (0, 255, 0), 2)
+
+    cv2.imshow("Capturing photos.", image_video)
+    cv2.waitKey(1)
+
+video.release()
+cv2.destroyAllWindows()
