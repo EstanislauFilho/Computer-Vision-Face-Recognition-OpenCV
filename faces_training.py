@@ -19,5 +19,13 @@ def getImage():
     faces = []
     ids = []
 
-    print("ok")
+    for i in faces_path:
+        image_face = cv2.cvtColor(cv2.imread(i), cv2.COLOR_BGR2GRAY)
+        id = int(os.path.split(i)[-1].split('.')[1])
+        ids.append(id)
+        faces.append(image_face)
+        print(id)
+    return np.array(ids), faces
 
+
+ids, faces = getImage()
