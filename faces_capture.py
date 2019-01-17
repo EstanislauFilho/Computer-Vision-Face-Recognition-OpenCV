@@ -18,7 +18,7 @@ width_face, heigth_face = 250, 250
 
 name = input("Informe seu nome ou um apelido: ")
 
-print("Capturing photos...")
+print("Iniciando Captura de Fotos...")
 
 while(True):
     conect, image_video = video.read()
@@ -33,6 +33,7 @@ while(True):
         if cv2.waitKey(1) & 0xFF == ord('c'):
             image_face = cv2.resize(image_video_gray[y:y + heigth, x:x + width], (width_face, heigth_face))
             cv2.imwrite("Faces_capturadas/"+str(name) + "." + str(cont_photo) + ".jpg",image_face)
+            print(str(cont_photo)+"º foto capturada com sucesso, restam "+str(total_photos-cont_photo)+" fotos para finalização da captura...")
             cont_photo += 1
 
     cv2.imshow("Capturing photos.", image_video)
@@ -41,5 +42,6 @@ while(True):
     if (cv2.waitKey(1) & 0xFF == ord('q')) or (cont_photo >= total_photos + 1):
         break
 
+print("Fotos capturadas com sucesso!")
 video.release()
 cv2.destroyAllWindows()
