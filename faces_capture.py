@@ -32,7 +32,7 @@ while(True):
 
         if cv2.waitKey(1) & 0xFF == ord('c'):
             image_face = cv2.resize(image_video_gray[y:y + heigth, x:x + width], (width_face, heigth_face))
-            cv2.imwrite("Faces_capturadas/face" + "." + str(name) + "." + str(cont_photo) + ".jpg",image_face)
+            cv2.imwrite("Faces_capturadas/"+str(name) + "." + str(cont_photo) + ".jpg",image_face)
             cont_photo += 1
 
     cv2.imshow("Capturing photos.", image_video)
