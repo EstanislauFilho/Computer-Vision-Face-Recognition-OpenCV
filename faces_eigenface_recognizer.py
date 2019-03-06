@@ -30,3 +30,6 @@ while(True):
         cv2.rectangle(image_video, (x, y), (x + width, y + heigth), (0, 255, 0), 2)
 
         cv2.putText(image_video, name, (x, y + (heigth + 30)), font, 2, (0, 0, 255))
+
+    cv2.imshow("Face Recognizer - Eigenfaces.", image_video)
+    cv2.waitKey(1)
