@@ -19,3 +19,6 @@ video = cv2.VideoCapture(0)
 name = ''
 
 while(True):
+    conect, image_video = video.read()
+
+    image_video_gray = cv2.cvtColor(image_video, cv2.COLOR_BGR2GRAY)
