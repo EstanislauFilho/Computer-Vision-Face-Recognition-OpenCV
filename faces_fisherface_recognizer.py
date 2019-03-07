@@ -22,3 +22,7 @@ while(True):
     conect, image_video = video.read()
 
     image_video_gray = cv2.cvtColor(image_video, cv2.COLOR_BGR2GRAY)
+
+    faces_on_video = face_detect.detectMultiScale(image_video_gray, scaleFactor=1.5, minSize=(100, 100))
+
+    
