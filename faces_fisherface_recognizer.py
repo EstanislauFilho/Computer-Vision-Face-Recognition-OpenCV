@@ -9,3 +9,11 @@ face_detect = cv2.CascadeClassifier("Classificador/haarcascade_frontalface_defau
 
 recognizer = cv2.face.FisherFaceRecognizer_create()
 #recognizer.read("Classificador/nome.yml")
+
+font = cv2.FONT_HERSHEY_COMPLEX_SMALL
+
+width_face, heigth_face = 220, 220
+
+video = cv2.VideoCapture(0)
+
+
