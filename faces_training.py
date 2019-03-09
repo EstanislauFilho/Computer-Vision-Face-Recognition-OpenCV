@@ -11,7 +11,6 @@ import numpy as np
 eigenface = cv2.face.EigenFaceRecognizer_create(num_components=50)
 fisherface = cv2.face.FisherFaceRecognizer_create(num_components=50)
 lbph = cv2.face.LBPHFaceRecognizer_create()
-print("ok")
 
 
 def getImage():
