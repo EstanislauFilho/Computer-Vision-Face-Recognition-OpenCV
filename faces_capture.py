@@ -12,7 +12,7 @@ eye_detect = cv2.CascadeClassifier("Classificador/haarcascade-eye.xml")
 video = cv2.VideoCapture(0)
 
 cont_photo = 1
-total_photos = 5
+total_photos = 50
 
 width_face, heigth_face = 250, 250
 
