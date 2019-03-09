@@ -15,3 +15,7 @@ font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 width_face, heigth_face = 220, 220
 
 video = cv2.VideoCapture(0)
+
+name = ''
+
+while(True): 
