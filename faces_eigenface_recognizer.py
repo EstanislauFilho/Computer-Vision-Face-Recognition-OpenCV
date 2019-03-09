@@ -8,7 +8,7 @@ import cv2
 face_detect = cv2.CascadeClassifier("Classificador/haarcascade_frontalface_default.xml")
 
 recognizer = cv2.face.EigenFaceRecognizer_create()
-#recognizer.read("Classificador/nome.yml")
+recognizer.read("Classificador/haarcascade_eigenface_face_recognition.yml")
 
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 
@@ -29,7 +29,13 @@ while(True):
         image_Face = cv2.resize(image_video_gray[y:y + heigth, x:x + width], (width_face, heigth_face))
         cv2.rectangle(image_video, (x, y), (x + width, y + heigth), (0, 255, 0), 2)
 
-        cv2.putText(image_video, name, (x, y + (heigth + 30)), font, 2, (0, 0, 255))
+        id, confianca = recognizer.predict(image_Face)
+        if id == 1:
+            name = 'Estanislau'
+        else:
+            name = "Pessoa"
+
+        cv2.putText(image_video, name, (x, y + (heigth + 40)), font, 2, (0, 255, 0))
 
     cv2.imshow("Face Recognizer - Eigenfaces.", image_video)
     cv2.waitKey(1)
