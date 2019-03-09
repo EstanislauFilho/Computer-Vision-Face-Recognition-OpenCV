@@ -15,7 +15,7 @@ print("ok")
 
 
 def getImage():
-    faces_path = [os.path.join('Faces_capturadas/',f) for f in os.listdir('Faces_capturadas/')]
+    faces_path = [os.path.join('Faces_captured/',f) for f in os.listdir('Faces_captured/')]
     faces = []
     ids = []
 
@@ -24,7 +24,6 @@ def getImage():
         id = int(os.path.split(i)[-1].split('.')[1])
         ids.append(id)
         faces.append(image_face)
-        print(id)
     return np.array(ids), faces
 
 
