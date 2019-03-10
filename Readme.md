@@ -2,7 +2,7 @@
 
 Este projeto conciste na criação de classificadores e scripts em python, que possam realizar o reconhecimento facial de faces em streaming por meio de uma Webcam. Para desenvolvimento deste projeto utilizou-se a biblioteca OpenCV e a linguagem de programação Python.
 
-![alt text](https://raw.githubusercontent.com/EstanislauFilho/Computer-Vision-Face-Detect-OpenCV/master/Imagens/Resultado.png)
+![alt text](https://raw.githubusercontent.com/EstanislauFilho/Computer-Vision-Face-Recognition-OpenCV/master/Imagens/Resultado.png)
 
 
 ## Iniciando o Projeto
