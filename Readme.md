@@ -32,7 +32,7 @@ Esse script em python irá fazer a captura de fotos das faces da pessoa a ser re
 Outra forma de executar o script é via terminal, pelo seguinte comando: 
 
 ```
-sudo python3 face_detect_image.py
+sudo python3 faces_capture.py
 ```
 
 ### Executando o face_detect_webcam.py
