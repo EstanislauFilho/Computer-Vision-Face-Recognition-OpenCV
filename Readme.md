@@ -60,7 +60,7 @@ sudo python3 faces_eigenface_recognizer.py
 
 ### Executando o faces_fisherface_recognizer.py
 
-Esse script em python faz o reconhecimento facial utilizando a técnica Fisherfaces. O classificador haarcascade_fisherface_face_recognition.yml que foi gerado a partir do treinamento das faces, é o responsável conter as caracteriscas principais da face a ser reconhecida. Para testa-lo basta  executá-lo pela própria IDE. 
+Esse script em python faz o reconhecimento facial utilizando a técnica Fisherfaces. O classificador haarcascade_fisherface_face_recognition.yml que foi gerado a partir do treinamento das faces, é o responsável conter as caracteriscas principais da face a ser reconhecida. Para testá-lo basta executá-lo pela própria IDE. 
 
 
 Outra forma de executar o script é via terminal, pelo seguinte comando:
@@ -68,6 +68,19 @@ Outra forma de executar o script é via terminal, pelo seguinte comando:
 ```
 sudo python3 faces_fisherface_recognizer.py
 ```
+
+
+### Executando o faces_lbph_recognizer.py
+
+Esse script em python faz o reconhecimento facial utilizando a técnica LBPH. O classificador haarcascade_lbph_face_recognition.yml que foi gerado a partir do treinamento das faces, é o responsável conter as caracteriscas principais da face a ser reconhecida. Para testá-lo basta executá-lo pela própria IDE. 
+
+
+Outra forma de executar o script é via terminal, pelo seguinte comando:
+
+```
+sudo python3 faces_lbph_recognizer.py
+```
+
 
 ## Desenvolvido com
 
