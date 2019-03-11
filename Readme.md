@@ -35,9 +35,9 @@ Outra forma de executar o script é via terminal, pelo seguinte comando:
 sudo python3 faces_capture.py
 ```
 
-### Executando o face_detect_webcam.py
+### Executando o faces_training.py
 
-Esse script em python tem como finalidade fazer a detecção facial em streming através de uma webcam. Para testa-lo basta  executá-lo pela própria IDE. 
+Esse script em python tem como finalidade fazer o treinamento das fotos referentes a face da pessoa a ser reconhecida. Esse script faz a coleta de todas as imagens na pasta Faces_captured e constrói classificadores do tipo yml, utilizando as técnicas Eigenfaces, Fisherfaces e a LBPH. Esse classificadores são salvos na pasta Classificadores. Para testa-lo basta  executá-lo pela própria IDE. 
 
 
 Outra forma de executar o script é via terminal, pelo seguinte comando:
