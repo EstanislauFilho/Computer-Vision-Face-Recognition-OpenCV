@@ -23,7 +23,7 @@ OpenCV+contrib.
 
 ## Execução e Testes
 
-Para executar e testar os scripts face_detect_image.py e face_detect_webcam.py, você inicialmente deve abri-los em seu ambiente de desenvolvimento em Python.
+Para executar e testar os scripts faces_capture.pym faces_treining.py, faces_eigenface_recognizer.py, faces_fisherface_recognizer.py e faces_lbph_recognizer.py, você deve abri-los em seu ambiente de desenvolvimento em Python.
 
 ### Executando o faces_capture.py
 
