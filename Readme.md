@@ -25,9 +25,9 @@ OpenCV+contrib.
 
 Para executar e testar os scripts face_detect_image.py e face_detect_webcam.py, você inicialmente deve abri-los em seu ambiente de desenvolvimento em Python.
 
-### Executando o face_detect_image.py
+### Executando o faces_capture.py
 
-Esse script em python irá fazer a detecção facial de pessoas em uma imagem do tipo jpg. Para esse experimento utilizou-se a imagem "scientists.jpg" presente na pasta "Imagens". Para a correta detecção de faces foi nescessário determinar os parâmetros "scaleFactor", "minSize" e "minNeighbors" na função "detectMultiScale". Para testa-lo basta executá-lo pela própria IDE.
+Esse script em python irá fazer a captura de fotos das faces da pessoa a ser reconhecida. Ao executar o script, você deve informar seu nome, e após isso, ao pressionar a tecla "c", 50 fotos das faces detectadas serão capturadas manualmente. Todas as fotos capturadas são redimensionadas para uma dimensão específica e convertidas para escala de cinza, e só depois são salvas na pasta Faces_captured. Para testa-lo basta executá-lo pela própria IDE.
 
 Outra forma de executar o script é via terminal, pelo seguinte comando: 
 
