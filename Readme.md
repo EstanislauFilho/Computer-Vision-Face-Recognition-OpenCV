@@ -43,7 +43,7 @@ Esse script em python tem como finalidade fazer o treinamento das fotos referent
 Outra forma de executar o script é via terminal, pelo seguinte comando:
 
 ```
-sudo python3 face_detect_webcam.py
+sudo python3 faces_training.py
 ```
 
 ## Desenvolvido com
