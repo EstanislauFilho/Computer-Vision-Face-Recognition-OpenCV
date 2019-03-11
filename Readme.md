@@ -46,6 +46,18 @@ Outra forma de executar o script é via terminal, pelo seguinte comando:
 sudo python3 faces_training.py
 ```
 
+
+### Executando o faces_eigenface_recognizer.py
+
+Esse script em python faz o reconhecimento facial utilizando a técnica Eigenface. O classificador haarcascade_eigenface_face_recognition.yml que foi gerado a partir do treinamento das faces, é o responsável conter as caracteriscas principais da face a ser reconhecida. Para testa-lo basta  executá-lo pela própria IDE. 
+
+
+Outra forma de executar o script é via terminal, pelo seguinte comando:
+
+```
+sudo python3 faces_eigenface_recognizer.py
+```
+
 ## Desenvolvido com
 
 * [OpenCV](https://opencv.org/) - Biblioteca de visão computacional desenvolvidade pela Intel em 1999;
