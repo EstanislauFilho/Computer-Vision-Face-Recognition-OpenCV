@@ -5,13 +5,13 @@ The goal of this project is to create classifiers and python scripts that can pe
 ![alt text](https://raw.githubusercontent.com/EstanislauFilho/Computer-Vision-Face-Recognition-OpenCV/master/Imagens/Resultado.png)
 
 
-## Iniciando o Projeto
+## Starting the Project
 
-As instruções a seguir permitirá que você possa executar, desenvolver e contribuir para o projeto em questão. Siga todas as etapas abaixo para executar o projeto de Reconhecimento Facial utilizando a biblioteca OpenCV e a linguagem de programação Python.
+The following instructions will allow you to run, develop and contribute to the project in question. Follow all the steps below to run the Facial Recognition project using the OpenCV library and the Python programming language.
 
-### Pré-requisitos
+### Prerequisites
 
-Para executar os scripts em Python presentes nesse projeto, você precisa instalar em sua máquina os seguintes componentes:
+To run the Python scripts in this project, you need to install the following components on your machine:
 
 ```
 Python 3.0 ou superior.
