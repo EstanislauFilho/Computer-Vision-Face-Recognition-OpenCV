@@ -1,6 +1,6 @@
-# Reconhecimento Facial com OpenCV e Python
+# Facial Recognition with OpenCV and Python.
 
-Este projeto conciste na criação de classificadores e scripts em python, que possam realizar o reconhecimento facial de faces em streaming por meio de uma Webcam. Para desenvolvimento deste projeto utilizou-se a biblioteca OpenCV e a linguagem de programação Python.
+The goal of this project is to create classifiers and python scripts that can perform facial recognition of faces in video streaming. For the development of this project, the OpenCV library and the Python programming language were used.
 
 ![alt text](https://raw.githubusercontent.com/EstanislauFilho/Computer-Vision-Face-Recognition-OpenCV/master/Imagens/Resultado.png)
 
