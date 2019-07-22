@@ -25,11 +25,11 @@ OpenCV+contrib.
 
 To run and test the faces_capture.pym scripts faces_treining.py, faces_eigenface_recognizer.py, faces_fisherface_recognizer.py and faces_lbph_recognizer.py, you must open them in your Python development environment.
 
-### Executando o faces_capture.py
+### Running faces_capture.py
 
-Esse script em python irá fazer a captura de fotos das faces da pessoa a ser reconhecida. Ao executar o script, você deve informar seu nome, e após isso, ao pressionar a tecla "c", 50 fotos das faces detectadas serão capturadas manualmente. Todas as fotos capturadas são redimensionadas para uma dimensão específica e convertidas para escala de cinza, e só depois são salvas na pasta Faces_captured. Para testa-lo basta executá-lo pela própria IDE.
+This python script will capture photos of the faces of the person being recognized. When executing the script, you must enter your name, and after that, pressing the "c" key, 50 photos of the detected faces will be captured manually. All captured photos are resized to a specific dimension and converted to grayscale, and only then are saved in the Faces_captured folder. To test it just run it by the IDE itself.
 
-Outra forma de executar o script é via terminal, pelo seguinte comando: 
+Another way to execute the script is via terminal, by the following command:
 
 ```
 sudo python3 faces_capture.py
