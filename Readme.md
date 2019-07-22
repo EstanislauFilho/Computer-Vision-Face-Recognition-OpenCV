@@ -21,9 +21,9 @@ IDE de sua preferência.
 OpenCV+contrib.
 ```
 
-## Execução e Testes
+## Execution and Testing
 
-Para executar e testar os scripts faces_capture.pym faces_treining.py, faces_eigenface_recognizer.py, faces_fisherface_recognizer.py e faces_lbph_recognizer.py, você deve abri-los em seu ambiente de desenvolvimento em Python.
+To run and test the faces_capture.pym scripts faces_treining.py, faces_eigenface_recognizer.py, faces_fisherface_recognizer.py and faces_lbph_recognizer.py, you must open them in your Python development environment.
 
 ### Executando o faces_capture.py
 
