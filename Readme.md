@@ -35,35 +35,35 @@ Another way to execute the script is via terminal, by the following command:
 sudo python3 faces_capture.py
 ```
 
-### Executando o faces_training.py
+### Running faces_training.py
 
-Esse script em python tem como finalidade fazer o treinamento das fotos referentes a face da pessoa a ser reconhecida. Esse script faz a coleta de todas as imagens na pasta Faces_captured e constrói classificadores do tipo yml, utilizando as técnicas Eigenfaces, Fisherfaces e a LBPH. Esse classificadores são salvos na pasta Classificadores. Para testa-lo basta  executá-lo pela própria IDE. 
+This python script is intended for training the photos of the face to be recognized. This script collects all images in the Faces_captured folder and builds yml classifiers using the Eigenfaces, Fisherfaces, and LBPH techniques. These classifiers are saved in the Classifiers folder. To test it just run it by the IDE itself.
 
 
-Outra forma de executar o script é via terminal, pelo seguinte comando:
+Another way to execute the script is via terminal, by the following command:
 
 ```
 sudo python3 faces_training.py
 ```
 
 
-### Executando o faces_eigenface_recognizer.py
+### Running faces_eigenface_recognizer.py
 
-Esse script em python faz o reconhecimento facial utilizando a técnica Eigenface. O classificador haarcascade_eigenface_face_recognition.yml que foi gerado a partir do treinamento das faces, é o responsável conter as caracteriscas principais da face a ser reconhecida. Para testa-lo basta  executá-lo pela própria IDE. 
+This python script does facial recognition using the Eigenface technique. The haarcascade_eigenface_face_recognition.yml classifier that was generated from the face training is responsible for containing the main characteristics of the face to be recognized. To test it just run it by the IDE itself. 
 
 
-Outra forma de executar o script é via terminal, pelo seguinte comando:
+Another way to execute the script is via terminal, by the following command:
 
 ```
 sudo python3 faces_eigenface_recognizer.py
 ```
 
-### Executando o faces_fisherface_recognizer.py
+### Running faces_fisherface_recognizer.py
 
-Esse script em python faz o reconhecimento facial utilizando a técnica Fisherfaces. O classificador haarcascade_fisherface_face_recognition.yml que foi gerado a partir do treinamento das faces, é o responsável conter as caracteriscas principais da face a ser reconhecida. Para testá-lo basta executá-lo pela própria IDE. 
+This python script does facial recognition using the Fisherfaces technique. The haarcascade_fisherface_face_recognition.yml classifier that was generated from the face training is responsible for containing the main characteristics of the face to be recognized. To test it just run it by the IDE itself. 
 
 
-Outra forma de executar o script é via terminal, pelo seguinte comando:
+Another way to execute the script is via terminal, by the following command:
 
 ```
 sudo python3 faces_fisherface_recognizer.py
