@@ -42,6 +42,7 @@ while(True):
     if (cv2.waitKey(1) & 0xFF == ord('q')) or (cont_photo >= total_photos + 1):
         break
 
+
 print("Fotos capturadas com sucesso!")
 video.release()
 cv2.destroyAllWindows()
