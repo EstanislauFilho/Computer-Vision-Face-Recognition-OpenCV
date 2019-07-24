@@ -93,19 +93,19 @@ sudo python3 faces_lbph_recognizer.py
 
 Please read Contributing.md for details on the process for submitting pull requests to the developer.
 
-## Versão
+## Version
 
-Para as versões disponíveis, consulte as tags neste repositório. 
+For available versions, see the tags in this repository. 
 
-## Autores
+## Authors
 
 * **Estanislau de Sena Filho** - *Computer Engineering Student at* [CEFET-MG](http://www.cefetmg.br/)
 
-## Licença
+## License
 
-Este não é um projeto licenciado. Sua finalidade é única excluisiva para estudo e aprendizagem sobre visão computacional.
+This is not a licensed project. Its purpose is exclusively for computer vision study and learning.
 
-## Agradecimentos
+## Special thanks
 
 * Jones Granatyr e Gabriel Alves
 
