@@ -25,7 +25,6 @@ def getImage():
         faces.append(image_face)
     return np.array(ids), faces
 
-
 ids, faces = getImage()
 
 print("Iniciando Treinamento...")
