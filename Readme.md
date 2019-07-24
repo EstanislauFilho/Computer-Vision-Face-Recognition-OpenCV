@@ -70,27 +70,28 @@ sudo python3 faces_fisherface_recognizer.py
 ```
 
 
-### Executando o faces_lbph_recognizer.py
+### Running faces_lbph_recognizer.py
 
-Esse script em python faz o reconhecimento facial utilizando a técnica LBPH. O classificador haarcascade_lbph_face_recognition.yml que foi gerado a partir do treinamento das faces, é o responsável conter as caracteriscas principais da face a ser reconhecida. Para testá-lo basta executá-lo pela própria IDE. 
+This python script does facial recognition using the LBPH technique.
+The haarcascade_lbph_face_recognition.yml classifier that was generated from the face training is responsible for containing the main characteristics of the face to be recognized. To test it just run it by the IDE itself.
 
 
-Outra forma de executar o script é via terminal, pelo seguinte comando:
+Another way to execute the script is via terminal, by the following command:
 
 ```
 sudo python3 faces_lbph_recognizer.py
 ```
 
 
-## Desenvolvido com
+## Developed with
 
-* [OpenCV](https://opencv.org/) - Biblioteca de visão computacional desenvolvidade pela Intel em 1999;
-* [Python Software Foundation](https://maven.apache.org/) - LIguagem programação;
-* [PyCharm](https://www.jetbrains.com/pycharm/) - IDE utilizada para desenvolvimento dos scrpts.
+* [OpenCV](https://opencv.org/) - Computer vision library developed by Intel in 1999;
+* [Python Software Foundation](https://maven.apache.org/) - Programming language;
+* [PyCharm](https://www.jetbrains.com/pycharm/) - IDE used to develop the scrpts.
 
-## Contribuindo
+## Contributing
 
-Por favor, leia Contributing.md para detalhes sobre o processo para enviar pedidos de pull para o desenvolvedor.
+Please read Contributing.md for details on the process for submitting pull requests to the developer.
 
 ## Versão
 
